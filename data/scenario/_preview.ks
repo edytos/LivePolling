@@ -163,7 +163,7 @@ Live Polling은 강사화면을 통해 공유되는 QR코드(URL)와 접속코�
 [chara_mod  name="여학생"  time="600"  cross="true"  storage="chara/2/normal.png"  ]
 [mask_rule  time="1000"  color="0x1af09b"  graphic=""  rule="017.png"  storage=""  ]
 [mask_off_rule  time="1000"  rule="018.png"  ]
-[tb_image_show  time="1000"  storage="default/회원가입.png"  width="621"  height="331"  x="35"  y="30"  _clickable_img=""  name="img_75"  ]
+[tb_image_show  time="1000"  storage="default/hwewongayip.png"  width="661"  height="353"  x="20"  y="33"  _clickable_img=""  name="img_75"  ]
 [tb_start_text mode=1 ]
 #여학생
 먼저, Withplus Live 홈페이지(www.withplus.live)에서  회원가입과 로그인을 합니다.[p]
@@ -185,14 +185,14 @@ Live Polling은 강사화면을 통해 공유되는 QR코드(URL)와 접속코�
 [chara_hide  name="남학생"  time="1000"  wait="true"  pos_mode="false"  ]
 [chara_move  name="여학생"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="607"  top="40"  width="400"  height="600"  ]
 [chara_mod  name="여학생"  time="600"  cross="true"  storage="chara/2/normal.png"  ]
-[tb_image_show  time="1000"  storage="default/Add버튼.png"  width="663"  height="324"  x="16"  y="30"  _clickable_img=""  name="img_74"  ]
+[tb_image_show  time="1000"  storage="default/AddButton.png"  width="652"  height="318"  x="20"  y="33"  _clickable_img=""  name="img_85"  ]
 [tb_start_text mode=1 ]
 #여학생
 Live Polling 페이지 안 박스 우측 상단에 있는 Add 버튼을 눌러줍니다.[p]
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/제목입력.png"  width="674"  height="321"  x="18"  y="30"  _clickable_img=""  name="img_77"  ]
+[tb_image_show  time="1000"  storage="default/titleinput.png"  width="641"  height="305"  x="20"  y="33"  _clickable_img=""  name="img_88"  ]
 [chara_mod  name="여학생"  time="600"  cross="true"  storage="chara/2/happy.png"  ]
 [tb_start_text mode=1 ]
 #여학생
@@ -200,7 +200,7 @@ Live Polling 페이지 안 박스 우측 상단에 있는 Add 버튼을 눌러�
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/선택.png"  width="675"  height="286"  x="15"  y="30"  _clickable_img=""  name="img_80"  ]
+[tb_image_show  time="1000"  storage="default/select.png"  width="642"  height="272"  x="20"  y="33"  _clickable_img=""  name="img_92"  ]
 [chara_mod  name="여학생"  time="600"  cross="true"  storage="chara/2/normal.png"  ]
 [tb_start_text mode=1 ]
 #여학생
@@ -208,14 +208,14 @@ Live Polling 페이지 안 박스 우측 상단에 있는 Add 버튼을 눌러�
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/워드선택시.png"  width="670"  height="280"  x="14"  y="30"  _clickable_img=""  name="img_83"  ]
+[tb_image_show  time="1000"  storage="default/wordsel.png"  width="663"  height="277"  x="20"  y="33"  _clickable_img=""  name="img_96"  ]
 [tb_start_text mode=1 ]
 #여학생
 Word Cloud를 선택하셨다면 중복 제출 가능 여부를 선택해 주시고, 입력 글자 수 제한을 작성해 주세요.[p]
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/초이스선택시.png"  width="515"  height="350"  x="78"  y="7"  _clickable_img=""  name="img_86"  ]
+[tb_image_show  time="1000"  storage="default/choicesel.png"  width="553"  height="375"  x="58"  y="27"  _clickable_img=""  name="img_99"  ]
 [chara_mod  name="여학생"  time="600"  cross="true"  storage="chara/2/happy.png"  ]
 [tb_start_text mode=1 ]
 #여학생
@@ -223,14 +223,14 @@ Choice를 선택하셨다면 객관식 선택지를 입력해주시고, 어떤 �
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/설문선택.png"  width="655"  height="323"  x="17"  y="30"  _clickable_img=""  name="img_89"  ]
+[tb_image_show  time="1000"  storage="default/solmunsel.png"  width="631"  height="311"  x="20"  y="33"  _clickable_img=""  name="img_103"  ]
 [tb_start_text mode=1 ]
 #여학생
 만들어진 설문은 Live Polling의 My List에서 확인할 수 있습니다.[p]
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/QR스캔.png"  width="667"  height="315"  x="22"  y="30"  _clickable_img=""  name="img_92"  ]
+[tb_image_show  time="1000"  storage="default/QRscan.png"  width="640"  height="302"  x="20"  y="33"  _clickable_img=""  name="img_106"  ]
 [chara_mod  name="여학생"  time="600"  cross="true"  storage="chara/2/normal.png"  ]
 [tb_start_text mode=1 ]
 #여학생
@@ -238,14 +238,14 @@ Choice를 선택하셨다면 객관식 선택지를 입력해주시고, 어떤 �
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/수강생QR.png"  width="558"  height="320"  x="79"  y="30"  _clickable_img=""  name="img_95"  ]
+[tb_image_show  time="1000"  storage="default/sugangQR.png"  width="640"  height="367"  x="20"  y="33"  _clickable_img=""  name="img_110"  ]
 [tb_start_text mode=1 ]
 #여학생
 수강생이 자신의 모바일기기에서 QR드를 스캔하게 되면 나오는 화면에서 접속코드를 입력하고 제출 버튼을 누르게 합니다. [p]
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/답변제출.png"  width="553"  height="328"  x="81"  y="30"  _clickable_img=""  name="img_98"  ]
+[tb_image_show  time="1000"  storage="default/dappyon.png"  width="595"  height="352"  x="20"  y="33"  _clickable_img=""  name="img_113"  ]
 [chara_mod  name="여학생"  time="600"  cross="true"  storage="chara/2/happy.png"  ]
 [tb_start_text mode=1 ]
 #여학생
@@ -253,7 +253,7 @@ Choice를 선택하셨다면 객관식 선택지를 입력해주시고, 어떤 �
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/최종확인.png"  width="591"  height="328"  x="56"  y="30"  _clickable_img=""  name="img_101"  ]
+[tb_image_show  time="1000"  storage="default/finalchk.png"  width="613"  height="340"  x="20"  y="33"  _clickable_img=""  name="img_101"  ]
 [chara_mod  name="여학생"  time="600"  cross="true"  storage="chara/2/normal.png"  ]
 [tb_start_text mode=1 ]
 #여학생
