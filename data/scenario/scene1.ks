@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/_scene1.ks]
+[_tb_system_call storage=system/scene1.ks]
 
 [cm  ]
 [live2d_new  model_id="Haru"  breath="true"  lip_time="100"  lip="true"  jname="가이드"  ]
