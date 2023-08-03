@@ -2,10 +2,15 @@
 
 [cm  ]
 [live2d_new  model_id="Haru"  breath="true"  lip_time="100"  lip="true"  jname="가이드"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="music.ogg"  html5="true"  fadein="true"  ]
 [bg  storage="hweisil.png"  time="1000"  method="rollIn"  cross="true"  ]
 [live2d_show  name="Haru"  x="0.02"  y="-0.93"  scale="2.6"  ]
 [tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#가이드
+준비가 되셨으면 클릭해주세요![p]
+[_tb_end_text]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="music.ogg"  html5="true"  fadein="true"  ]
+
 [playse  volume="100"  time="1000"  buf="1"  storage="01_guide.mp3"  html5="true"  clear="true"  ]
 [delay  speed="110"  ]
 [tb_start_text mode=1 ]
