@@ -227,17 +227,17 @@ ERROR!!                     エラーメッセージを通知する
 [image layer=1 x=840 y=640 storage=escape/button_select.png name=select]
 
 ; アイテムを使うためのボタンを表示する。すべて固定ボタン。画面外に出しておき、アイテムを入手したら画面内に引っ張ってくる。
-[button fix=true name=fixbox    graphic=escape/item_box.png    x=1840 y=30  storage=escape/_subroutine.ks target=*Sub_Select auto_next=false exp="tf.select = 'box'   ; tf.top =  30"]
-[button fix=true name=fixbomb   graphic=escape/item_bomb.png   x=1840 y=120 storage=escape/_subroutine.ks target=*Sub_Select auto_next=false exp="tf.select = 'bomb'  ; tf.top = 120"]
-[button fix=true name=fixkey    graphic=escape/item_key.png    x=1840 y=210 storage=escape/_subroutine.ks target=*Sub_Select auto_next=false exp="tf.select = 'key'   ; tf.top = 210"]
-[button fix=true name=fixlpaper graphic=escape/item_lpaper.png x=1840 y=300 storage=escape/_subroutine.ks target=*Sub_Select auto_next=false exp="tf.select = 'lpaper'; tf.top = 300"]
-[button fix=true name=fixrpaper graphic=escape/item_rpaper.png x=1840 y=390 storage=escape/_subroutine.ks target=*Sub_Select auto_next=false exp="tf.select = 'rpaper'; tf.top = 390"]
+[button fix=true name=fixbox    graphic=escape/item_box.png    x=1840 y=30  storage=escape/subroutine.ks target=*Sub_Select auto_next=false exp="tf.select = 'box'   ; tf.top =  30"]
+[button fix=true name=fixbomb   graphic=escape/item_bomb.png   x=1840 y=120 storage=escape/subroutine.ks target=*Sub_Select auto_next=false exp="tf.select = 'bomb'  ; tf.top = 120"]
+[button fix=true name=fixkey    graphic=escape/item_key.png    x=1840 y=210 storage=escape/subroutine.ks target=*Sub_Select auto_next=false exp="tf.select = 'key'   ; tf.top = 210"]
+[button fix=true name=fixlpaper graphic=escape/item_lpaper.png x=1840 y=300 storage=escape/subroutine.ks target=*Sub_Select auto_next=false exp="tf.select = 'lpaper'; tf.top = 300"]
+[button fix=true name=fixrpaper graphic=escape/item_rpaper.png x=1840 y=390 storage=escape/subroutine.ks target=*Sub_Select auto_next=false exp="tf.select = 'rpaper'; tf.top = 390"]
 
 ; アイテムの説明を見るためのボタンを表示する。すべて固定ボタン。画面外に出しておき、アイテムを入手したら画面内に引っ張ってくる。
-[button fix=true name=fixbox    graphic=escape/button_question.png x=1915 y=30  storage=escape/_subroutine.ks target=*Sub_Check_Box     auto_next=false]
-[button fix=true name=fixbomb   graphic=escape/button_question.png x=1915 y=120 storage=escape/_subroutine.ks target=*Sub_Check_Bomb    auto_next=false]
-[button fix=true name=fixkey    graphic=escape/button_question.png x=1915 y=210 storage=escape/_subroutine.ks target=*Sub_Check_Key     auto_next=false]
-[button fix=true name=fixlpaper graphic=escape/button_question.png x=1915 y=300 storage=escape/_subroutine.ks target=*Sub_Check_LPaper  auto_next=false]
-[button fix=true name=fixrpaper graphic=escape/button_question.png x=1915 y=390 storage=escape/_subroutine.ks target=*Sub_Check_RPaper  auto_next=false]
+[button fix=true name=fixbox    graphic=escape/button_question.png x=1915 y=30  storage=escape/subroutine.ks target=*Sub_Check_Box     auto_next=false]
+[button fix=true name=fixbomb   graphic=escape/button_question.png x=1915 y=120 storage=escape/subroutine.ks target=*Sub_Check_Bomb    auto_next=false]
+[button fix=true name=fixkey    graphic=escape/button_question.png x=1915 y=210 storage=escape/subroutine.ks target=*Sub_Check_Key     auto_next=false]
+[button fix=true name=fixlpaper graphic=escape/button_question.png x=1915 y=300 storage=escape/subroutine.ks target=*Sub_Check_LPaper  auto_next=false]
+[button fix=true name=fixrpaper graphic=escape/button_question.png x=1915 y=390 storage=escape/subroutine.ks target=*Sub_Check_RPaper  auto_next=false]
 
 [return]

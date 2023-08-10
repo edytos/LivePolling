@@ -81,4 +81,4 @@ tf.answer = '4527'
 ;-------------------------------------------------------
 *Back
 [jump storage=escape/left.ks cond="f.develops[f.current_scenario] != 1"]
-[jump storage=escape/_end.ks]
+[jump storage=escape/end.ks]

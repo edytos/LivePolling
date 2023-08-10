@@ -40,5 +40,5 @@
 [bg_rule  time="1000"  clickskip="false"  wait="true"  storage="black.png"  rule="011.png"  ]
 [_tb_end_tyrano_code]
 
-[jump  storage="escape/_start.ks"  ]
+[jump  storage="escape/start.ks"  ]
 [s  ]
