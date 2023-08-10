@@ -10,10 +10,16 @@
 *title
 
 [glink  color="black"  text="라이브&nbsp;폴링&nbsp;알아보기"  x="43"  y="278"  size="24"  target="*start"  width="255"  height="23"  _clickable_img=""  ]
+[glink  color="black"  text="방&nbsp;탈출&nbsp;샘플보기"  x="43"  y="354"  size="24"  target="*roomescape"  width="255"  height="23"  _clickable_img=""  ]
 [s  ]
 *start
 
 [cm  ]
 [tb_keyconfig  flag="1"  ]
 [jump  storage="scene1.ks"  target=""  ]
+*roomescape
+
+[cm  ]
+[tb_keyconfig  flag="1"  ]
+[jump  storage="escape.ks"  target=""  ]
 [s  ]
